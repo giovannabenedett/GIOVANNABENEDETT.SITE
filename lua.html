@@ -64,9 +64,10 @@
 		
 		
 <!-- BOTÃO  -->
-	<div id="cta" class="mt-4 d-none">
+
 		
-        <a href="https://giovannabenedett.site" class="a-btn" style="text-decoration: none;">
+			
+	<a href="https://giovannabenedett.site" class="a-btn" style="text-decoration: none;">
         <a href="https://giovannabenedett.site" class="btn btn-lg btn-success py-3 px-5 mb-0">QUERO ACESSAR AGORA</a>
 
 		</a></div>
@@ -74,7 +75,7 @@
 
 		<!--TEMPORIZADOR -->
 		
-<style>.cta {display:none;}</style> 
+<style>.ocultar {display:none;}</style> 
 <script type="text/javascript">
 var tmin = 0;
 var tseg = 0;
@@ -83,7 +84,7 @@ var tpitch = (tmin * 60000) + (tseg * 1000);
 setTimeout('show()', tpitch);
 console.log('pitch em:', tpitch,'ms - totalizando',tmin,'min','e',tseg,'seg'); 
 function show(){
-var list = document.getElementsByClassName('cta');
+var list = document.getElementsByClassName('ocultar');
 for (var i = 0; i < list.length; i++) {
     list[i].style.visibility = 'visible';
     list[i].style.display = 'block';
