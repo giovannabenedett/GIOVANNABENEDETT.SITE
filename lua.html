@@ -64,14 +64,12 @@
 		
 		
 <!-- BOTÃO  -->
-	<div id="cta1" class="mt-4 d-none">
+	<div id="ocultar" class="mt-4 d-none">
 		
         <a href="https://giovannabenedett.site" class="a-btn" style="text-decoration: none;">
         <a href="https://giovannabenedett.site" class="btn btn-lg btn-success py-3 px-5 mb-0">QUERO ACESSAR AGORA</a>
 
-		<span class="span-btn2">(atenção: vagas limitadas)</span>
-
-	</a></div>
+		</a></div>
 
 
 
@@ -81,7 +79,24 @@
       setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 5); // temporização da Call to Action (em milissegundos)
     </script>
 
+  <!--segundo teste temporizador -->
 
+	  <style>.ocultar{display:none;}</style> 
+<script type="text/javascript">
+var tmin = 1;
+var tseg = 0;
+  
+var tpitch = (tmin * 60000) + (tseg * 1000);
+setTimeout('show()', tpitch);
+console.log('pitch em:', tpitch,'ms - totalizando',tmin,'min','e',tseg,'seg'); 
+function show(){
+var list = document.getElementsByClassName('ocultar');
+for (var i = 0; i < list.length; i++) {
+    list[i].style.visibility = 'visible';
+    list[i].style.display = 'block';
+    }
+}
+</script>
 
 		
 
@@ -217,70 +232,6 @@ Para Atrair um Grande Amor , Riqueza e Dinheiro, Realização Pessoal e Propósi
 	<p class="lead">Tenha acesso ao valor promocional agora mesmo clicando no botão abaixo. </p>
 			         
             <!-- TEXTO -->
-
-
-			  
-	  
-          <!-- BOTÃO  --
-                  <a href="https://pay.hotmart.com/O71309570U?checkoutMode=10" class="a-btn" style="text-decoration: none;">
-                <a href="https://pay.hotmart.com/O71309570U?checkoutMode=10" class="btn btn-lg btn-success py-3 px-5 mb-0">Acessar agora</a>
-         <!-- BOTÃO fim -->     
-                 
-			  
-		
-
-	  <!--segundo teste temporizador -->
-
-	  <style>.ocultar{display:none;}</style> 
-<script type="text/javascript">
-var tmin = 1;
-var tseg = 0;
-  
-var tpitch = (tmin * 60000) + (tseg * 1000);
-setTimeout('show()', tpitch);
-console.log('pitch em:', tpitch,'ms - totalizando',tmin,'min','e',tseg,'seg'); 
-function show(){
-var list = document.getElementsByClassName('a-btn');
-for (var i = 0; i < list.length; i++) {
-    list[i].style.visibility = 'visible';
-    list[i].style.display = 'block';
-    }
-}
-</script>
-
-	  <!--fim -->
-
-
-	  <!--TESTE -->
-
- <!-- Botão 2 -->
-            <div id="cta2" class="mt-4 d-none">
-              <a href="https://pay.kiwify.com.br/HkrDVPl" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">teste 1</span>
-                <span class="span-btn2">(atenção: vagas limitadas)</span>
-              </a>
-            </div>
-
-	  
-	  <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 5); // temporização da Call to Action (em milissegundos)
-    </script>
-
-
-	  <!--teste teste -->
-	   <!-- Botão -->
-            <div id="cta1" class="mt-4 d-none">
-              <a href="https://pay.hotmart.com/O71309570U?checkoutMode=10" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">TESTE 2!</span>
-                <span class="span-btn2">(Clique aqui)</span>
-              </a>
-            </div>
-
-
-	  <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 5); // temporização da Call to Action (em milissegundos)
-    </script>
-	  
 
 
 	  
