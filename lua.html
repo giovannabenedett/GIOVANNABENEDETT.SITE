@@ -221,7 +221,7 @@ var tpitch = (tmin * 60000) + (tseg * 1000);
 setTimeout('show()', tpitch);
 console.log('pitch em:', tpitch,'ms - totalizando',tmin,'min','e',tseg,'seg'); 
 function show(){
-var list = document.getElementsByClassName('ocultar');
+var list = document.getElementsByClassName('a-btn');
 for (var i = 0; i < list.length; i++) {
     list[i].style.visibility = 'visible';
     list[i].style.display = 'block';
@@ -237,14 +237,14 @@ for (var i = 0; i < list.length; i++) {
  <!-- Botão 2 -->
             <div id="cta2" class="mt-4 d-none">
               <a href="https://pay.kiwify.com.br/HkrDVPl" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">QUERO OBTER ACESSO!</span>
+                <span class="span-btn">teste 1</span>
                 <span class="span-btn2">(atenção: vagas limitadas)</span>
               </a>
             </div>
 
 	  
 	  <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 0); // temporização da Call to Action (em milissegundos)
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 5); // temporização da Call to Action (em milissegundos)
     </script>
 
 
@@ -259,7 +259,7 @@ for (var i = 0; i < list.length; i++) {
 
 
 	  <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 0); // temporização da Call to Action (em milissegundos)
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 5); // temporização da Call to Action (em milissegundos)
     </script>
 	  
 
