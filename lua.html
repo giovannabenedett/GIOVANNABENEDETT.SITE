@@ -208,23 +208,28 @@ Para Atrair um Grande Amor , Riqueza e Dinheiro, Realização Pessoal e Propósi
          <!-- BOTÃO fim -->     
                  
 			  
-		 <!-- teste laranja Botão 2 -->
-            <div id="cta2" class="mt-4 d-none">
-              <a href="https://pay.kiwify.com.br/HkrDVPl" class="a-btn" style="text-decoration: none;">
-                <span class="span-btn">QUERO OBTER ACESSO!</span>
-                <span class="span-btn2">(atenção: vagas limitadas)</span>
-              </a>
-            </div>	  
-			
-        </div>
-      </div>
-    </div>
-	  
-<!--temporizador botao -->
- <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 0); // temporização da Call to Action (em milissegundos)
-    </script>
-<!--fim temporizador botao -->
+		
+
+	  <!--segundo teste temporizador -->
+
+	  <style>.ocultar{display:none;}</style> 
+<script type="text/javascript">
+var tmin = 1;
+var tseg = 0;
+  
+var tpitch = (tmin * 60000) + (tseg * 1000);
+setTimeout('show()', tpitch);
+console.log('pitch em:', tpitch,'ms - totalizando',tmin,'min','e',tseg,'seg'); 
+function show(){
+var list = document.getElementsByClassName('ocultar');
+for (var i = 0; i < list.length; i++) {
+    list[i].style.visibility = 'visible';
+    list[i].style.display = 'block';
+    }
+}
+</script>
+
+	  <!--fim -->
 
 
 	  
