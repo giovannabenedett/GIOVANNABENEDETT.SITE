@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <title>Seja Bem-vindo(a)!</title>
+  
+  <!-- Meta Pixel Code -->
+
+<!-- End Meta Pixel Code -->
+  
+</head>
+<body> 
+  <div class="container">
+    <div class="black">
+      <div>
+        <div class="question">
+          <h1>Seja Bem-vindo(a)!</h1>
+          <p>Onde deseja acessar? </p>
+        </div>
+        
+        <div class="answer">
+          <a class="btn" href="https://giovannabenedett.site/lua">Método da Lua</a>
+        
+          <!--Botão 2 --
+          <div class="answer">
+          <a class="btn" href="https://giovannabenedett.site">Site </a>
+             <!--Botão 2 -->
+            
+        </div>
+      </div>    
+    </div>
+    <p style="text-align: center; font-weight: bold;">© 2024 – Todos os direitos reservados. Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Meta, Inc.</p>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
